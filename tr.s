@@ -3,20 +3,20 @@
 * Itagaki Fumihiko 14-Aug-93  Create.
 * 1.0
 *
-* Itagaki Fumihiko 08-Sep-93  ƒVƒtƒgJIS‘Î‰D-S ƒIƒvƒVƒ‡ƒ“”p~C-1 ƒIƒvƒVƒ‡ƒ“’Ç‰Á
-* Itagaki Fumihiko 08-Sep-93  -N ƒIƒvƒVƒ‡ƒ“C-B ƒIƒvƒVƒ‡ƒ“C-C ƒIƒvƒVƒ‡ƒ“‚ğ’Ç‰Á
+* Itagaki Fumihiko 08-Sep-93  ã‚·ãƒ•ãƒˆJISå¯¾å¿œï¼-S ã‚ªãƒ—ã‚·ãƒ§ãƒ³å»ƒæ­¢ï¼Œ-1 ã‚ªãƒ—ã‚·ãƒ§ãƒ³è¿½åŠ 
+* Itagaki Fumihiko 08-Sep-93  -N ã‚ªãƒ—ã‚·ãƒ§ãƒ³ï¼Œ-B ã‚ªãƒ—ã‚·ãƒ§ãƒ³ï¼Œ-C ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’è¿½åŠ 
 * 1.1
-* Itagaki Fumihiko 08-Jan-94  ˆø”‚Ì•¶š—ñ‚Ì‰ğß‚Ì•s‹ï‡‚ğC³D
-*                             o ˆø”‚Ì•¶š—ñ‚ÌÅŒã‚Ì•¶š‚ªe\f‚Å‚ ‚éê‡C‚»‚Ìe\f‚ğ–³‹‚µ‚Ä
-*                               ‚¢‚½‚ªC•¶še\f‚Æ‚µ‚Ä‰ğß‚·‚é‚æ‚¤•ÏXD
-*                             o ˆø”‚Ì•¶š—ñ’†‚ÉCƒVƒtƒgJIS 1ƒoƒCƒg–Ú‚ÆŒ©‚È‚µ“¾‚éƒoƒCƒg‚É‘±‚¢‚Ä
-*                               ƒVƒtƒgJIS 2ƒoƒCƒg–Ú‚ÆŒ©‚È‚µ“¾‚È‚¢ƒoƒCƒg‚ª‚ ‚éê‡C1ƒoƒCƒg–Ú‚ğ
-*                               –³‹‚µ‚Ä‚µ‚Ü‚¢C2ƒoƒCƒg–Ú‚ğ 1•¶š‚Æ‚µ‚Ä‰ğß‚µ‚Ä‚µ‚Ü‚Á‚Ä‚¢‚½D
-*                             o 2ƒoƒCƒg–Ú‚ªe\f‚Å‚ ‚éƒVƒtƒgJIS 2ƒoƒCƒg•¶š‚ª‚ ‚é‚ÆC³‚µ‚­‰ğß
-*                               ‚³‚ê‚È‚©‚Á‚½D
+* Itagaki Fumihiko 08-Jan-94  å¼•æ•°ã®æ–‡å­—åˆ—ã®è§£é‡ˆã®ä¸å…·åˆã‚’ä¿®æ­£ï¼
+*                             o å¼•æ•°ã®æ–‡å­—åˆ—ã®æœ€å¾Œã®æ–‡å­—ãŒâ€˜\â€™ã§ã‚ã‚‹å ´åˆï¼Œãã®â€˜\â€™ã‚’ç„¡è¦–ã—ã¦
+*                               ã„ãŸãŒï¼Œæ–‡å­—â€˜\â€™ã¨ã—ã¦è§£é‡ˆã™ã‚‹ã‚ˆã†å¤‰æ›´ï¼
+*                             o å¼•æ•°ã®æ–‡å­—åˆ—ä¸­ã«ï¼Œã‚·ãƒ•ãƒˆJIS 1ãƒã‚¤ãƒˆç›®ã¨è¦‹ãªã—å¾—ã‚‹ãƒã‚¤ãƒˆã«ç¶šã„ã¦
+*                               ã‚·ãƒ•ãƒˆJIS 2ãƒã‚¤ãƒˆç›®ã¨è¦‹ãªã—å¾—ãªã„ãƒã‚¤ãƒˆãŒã‚ã‚‹å ´åˆï¼Œ1ãƒã‚¤ãƒˆç›®ã‚’
+*                               ç„¡è¦–ã—ã¦ã—ã¾ã„ï¼Œ2ãƒã‚¤ãƒˆç›®ã‚’ 1æ–‡å­—ã¨ã—ã¦è§£é‡ˆã—ã¦ã—ã¾ã£ã¦ã„ãŸï¼
+*                             o 2ãƒã‚¤ãƒˆç›®ãŒâ€˜\â€™ã§ã‚ã‚‹ã‚·ãƒ•ãƒˆJIS 2ãƒã‚¤ãƒˆæ–‡å­—ãŒã‚ã‚‹ã¨ï¼Œæ­£ã—ãè§£é‡ˆ
+*                               ã•ã‚Œãªã‹ã£ãŸï¼
 * 1.2
 *
-* Usage: tr [ -b ] [ -1BCNZ ] [ -cds ] [ -- ] [ •¶š—ñ‚P [ •¶š—ñ‚Q ] ]
+* Usage: tr [ -b ] [ -1BCNZ ] [ -cds ] [ -- ] [ æ–‡å­—åˆ—ï¼‘ [ æ–‡å­—åˆ—ï¼’ ] ]
 *
 
 .include doscall.h
@@ -56,8 +56,8 @@ start:
 		bra.s	start1
 		dc.b	'#HUPAIR',0
 start1:
-		lea	stack_bottom,a7			*  A7 := ƒXƒ^ƒbƒN‚Ì’ê
-		lea	$10(a0),a0			*  A0 : PDBƒAƒhƒŒƒX
+		lea	stack_bottom,a7			*  A7 := ã‚¹ã‚¿ãƒƒã‚¯ã®åº•
+		lea	$10(a0),a0			*  A0 : PDBã‚¢ãƒ‰ãƒ¬ã‚¹
 		move.l	a7,d0
 		sub.l	a0,d0
 		move.l	d0,-(a7)
@@ -65,24 +65,24 @@ start1:
 		DOS	_SETBLOCK
 		addq.l	#8,a7
 	*
-	*  ˆø”•À‚ÑŠi”[ƒGƒŠƒA‚ğŠm•Û‚·‚é
+	*  å¼•æ•°ä¸¦ã³æ ¼ç´ã‚¨ãƒªã‚¢ã‚’ç¢ºä¿ã™ã‚‹
 	*
-		lea	1(a2),a0			*  A0 := ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚Ì•¶š—ñ‚Ìæ“ªƒAƒhƒŒƒX
-		bsr	strlen				*  D0.L := ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚Ì•¶š—ñ‚Ì’·‚³
+		lea	1(a2),a0			*  A0 := ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã®æ–‡å­—åˆ—ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
+		bsr	strlen				*  D0.L := ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã®æ–‡å­—åˆ—ã®é•·ã•
 		addq.l	#1,d0
 		bsr	malloc
 		bmi	insufficient_memory
 
-		movea.l	d0,a1				*  A1 := ˆø”•À‚ÑŠi”[ƒGƒŠƒA‚Ìæ“ªƒAƒhƒŒƒX
+		movea.l	d0,a1				*  A1 := å¼•æ•°ä¸¦ã³æ ¼ç´ã‚¨ãƒªã‚¢ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
 	*
-	*  ˆø”‚ğƒfƒR[ƒh‚µC‰ğß‚·‚é
+	*  å¼•æ•°ã‚’ãƒ‡ã‚³ãƒ¼ãƒ‰ã—ï¼Œè§£é‡ˆã™ã‚‹
 	*
-		moveq	#0,d6				*  D6.W : ƒGƒ‰[EƒR[ƒh
-		bsr	DecodeHUPAIR			*  ˆø”‚ğƒfƒR[ƒh‚·‚é
-		movea.l	a1,a0				*  A0 : ˆø”ƒ|ƒCƒ“ƒ^
-		move.l	d0,d7				*  D7.L : ˆø”ƒJƒEƒ“ƒ^
+		moveq	#0,d6				*  D6.W : ã‚¨ãƒ©ãƒ¼ãƒ»ã‚³ãƒ¼ãƒ‰
+		bsr	DecodeHUPAIR			*  å¼•æ•°ã‚’ãƒ‡ã‚³ãƒ¼ãƒ‰ã™ã‚‹
+		movea.l	a1,a0				*  A0 : å¼•æ•°ãƒã‚¤ãƒ³ã‚¿
+		move.l	d0,d7				*  D7.L : å¼•æ•°ã‚«ã‚¦ãƒ³ã‚¿
 decode_opt_start:
-		moveq	#0,d5				*  D5.L : ƒtƒ‰ƒObits
+		moveq	#0,d5				*  D5.L : ãƒ•ãƒ©ã‚°bits
 decode_opt_loop1:
 		tst.l	d7
 		beq	decode_opt_done
@@ -190,7 +190,7 @@ decode_opt_done:
 		move.l	a0,strdesc2+scanptr
 args_ok:
 	*
-	*  •\‚ğì‚é
+	*  è¡¨ã‚’ä½œã‚‹
 	*
 		move.w	#TABLESIZE-1,d0
 		btst	#FLAG_1,d5
@@ -305,8 +305,8 @@ make_table1_done:
 		lea	strdesc2,a1
 		bsr	make_table_boolean
 make_table2_done:
-		moveq	#1,d0				*  o—Í‚Í
-		bsr	is_chrdev			*  ƒLƒƒƒ‰ƒNƒ^EƒfƒoƒCƒX‚©H
+		moveq	#1,d0				*  å‡ºåŠ›ã¯
+		bsr	is_chrdev			*  ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ»ãƒ‡ãƒã‚¤ã‚¹ã‹ï¼Ÿ
 		seq	do_buffering
 		beq	alloc_outbuf
 
@@ -316,20 +316,20 @@ make_table2_done:
 		btst	#5,d0				*  '0':cooked  '1':raw
 		bne	outbuf_ok
 
-		bset	#FLAG_C,d5			*  ‰üs‚ğ•ÏŠ·‚·‚é
+		bset	#FLAG_C,d5			*  æ”¹è¡Œã‚’å¤‰æ›ã™ã‚‹
 		bra	outbuf_ok
 
 alloc_outbuf:
-		*  o—Íƒoƒbƒtƒ@‚ğŠm•Û
+		*  å‡ºåŠ›ãƒãƒƒãƒ•ã‚¡ã‚’ç¢ºä¿
 		move.l	#OUTBUF_SIZE,d0
-		move.l	d0,d4				*  D4 : outbufƒJƒEƒ“ƒ^
+		move.l	d0,d4				*  D4 : outbufã‚«ã‚¦ãƒ³ã‚¿
 		bsr	malloc
 		bmi	insufficient_memory
 
 		move.l	d0,outbuf_top
-		move.l	d0,a4				*  A4 : outbufƒ|ƒCƒ“ƒ^
+		move.l	d0,a4				*  A4 : outbufãƒã‚¤ãƒ³ã‚¿
 outbuf_ok:
-		*  “ü—Íƒoƒbƒtƒ@‚ğŠm•Û
+		*  å…¥åŠ›ãƒãƒƒãƒ•ã‚¡ã‚’ç¢ºä¿
 		move.l	#$00ffffff,d0
 		move.l	d0,inpbuf_size
 		bsr	malloc
@@ -342,27 +342,27 @@ outbuf_ok:
 inpbuf_ok:
 		move.l	d0,inpbuf_top
 	*
-	*  •W€“ü—Í‚ğØ‚è‘Ö‚¦‚é
+	*  æ¨™æº–å…¥åŠ›ã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹
 	*
-		clr.w	-(a7)				*  •W€“ü—Í‚ğ
-		DOS	_DUP				*  •¡»‚µ‚½ƒnƒ“ƒhƒ‹‚©‚ç“ü—Í‚µC
+		clr.w	-(a7)				*  æ¨™æº–å…¥åŠ›ã‚’
+		DOS	_DUP				*  è¤‡è£½ã—ãŸãƒãƒ³ãƒ‰ãƒ«ã‹ã‚‰å…¥åŠ›ã—ï¼Œ
 		addq.l	#2,a7
 		tst.l	d0
 		bmi	open_file_failure
 
 		move.w	d0,stdin
 		clr.w	-(a7)
-		DOS	_CLOSE				*  •W€“ü—Í‚ÍƒNƒ[ƒY‚·‚éD
-		addq.l	#2,a7				*  ‚±‚¤‚µ‚È‚¢‚Æ ^C ‚â ^S ‚ªŒø‚©‚È‚¢
+		DOS	_CLOSE				*  æ¨™æº–å…¥åŠ›ã¯ã‚¯ãƒ­ãƒ¼ã‚ºã™ã‚‹ï¼
+		addq.l	#2,a7				*  ã“ã†ã—ãªã„ã¨ ^C ã‚„ ^S ãŒåŠ¹ã‹ãªã„
 	*
-	*  ŠJn
+	*  é–‹å§‹
 	*
 		move.w	stdin,d2
 		bsr	tr_one
-		clr.w	-(a7)				*  •W€“ü—Í‚ğ
-		move.w	stdin,-(a7)			*  Œ³‚É
-		DOS	_DUP2				*  –ß‚·D
-		DOS	_CLOSE				*  •¡»‚ÍƒNƒ[ƒY‚·‚éD
+		clr.w	-(a7)				*  æ¨™æº–å…¥åŠ›ã‚’
+		move.w	stdin,-(a7)			*  å…ƒã«
+		DOS	_DUP2				*  æˆ»ã™ï¼
+		DOS	_CLOSE				*  è¤‡è£½ã¯ã‚¯ãƒ­ãƒ¼ã‚ºã™ã‚‹ï¼
 exit_program:
 		move.w	d6,-(a7)
 		DOS	_EXIT2
@@ -696,7 +696,7 @@ tr_one:
 		sf	terminate_by_ctrld
 		move.w	d2,d0
 		bsr	is_chrdev
-		beq	tr_one_start			*  -- ƒuƒƒbƒNEƒfƒoƒCƒX
+		beq	tr_one_start			*  -- ãƒ–ãƒ­ãƒƒã‚¯ãƒ»ãƒ‡ãƒã‚¤ã‚¹
 
 		btst	#5,d0				*  '0':cooked  '1':raw
 		bne	tr_one_start
@@ -1008,13 +1008,13 @@ malloc:
 	dc.b	'## tr 1.2 ##  Copyright(C)1993-94 by Itagaki Fumihiko',0
 
 msg_myname:		dc.b	'tr: ',0
-msg_no_memory:		dc.b	'ƒƒ‚ƒŠ‚ª‘«‚è‚Ü‚¹‚ñ',CR,LF,0
-msg_no_file_handle:	dc.b	'ƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹‚ª‘«‚è‚Ü‚¹‚ñ',CR,LF,0
-msg_read_fail:		dc.b	'“ü—ÍƒGƒ‰[',CR,LF,0
-msg_write_fail:		dc.b	'o—ÍƒGƒ‰[',CR,LF,0
-msg_illegal_option:	dc.b	'•s³‚ÈƒIƒvƒVƒ‡ƒ“ -- ',0
-msg_bad_string:		dc.b	'•¶š—ñ‚ª•s³‚Å‚·',CR,LF,0
-msg_usage:		dc.b	CR,LF,'g—p–@:  tr [-b] [-1BCNZ] [-cds] [--] [string1 [string2]]',CR,LF
+msg_no_memory:		dc.b	'ãƒ¡ãƒ¢ãƒªãŒè¶³ã‚Šã¾ã›ã‚“',CR,LF,0
+msg_no_file_handle:	dc.b	'ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«ãŒè¶³ã‚Šã¾ã›ã‚“',CR,LF,0
+msg_read_fail:		dc.b	'å…¥åŠ›ã‚¨ãƒ©ãƒ¼',CR,LF,0
+msg_write_fail:		dc.b	'å‡ºåŠ›ã‚¨ãƒ©ãƒ¼',CR,LF,0
+msg_illegal_option:	dc.b	'ä¸æ­£ãªã‚ªãƒ—ã‚·ãƒ§ãƒ³ -- ',0
+msg_bad_string:		dc.b	'æ–‡å­—åˆ—ãŒä¸æ­£ã§ã™',CR,LF,0
+msg_usage:		dc.b	CR,LF,'ä½¿ç”¨æ³•:  tr [-b] [-1BCNZ] [-cds] [--] [string1 [string2]]',CR,LF
 str_nul:		dc.b	0
 *****************************************************************
 .offset 0
